@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="13F34" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Drink" representedClassName="Drink" syncable="YES">
+        <attribute name="deletable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="instructions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ingredients" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ingredient" inverseName="drinks" inverseEntity="Ingredient" syncable="YES"/>
+    </entity>
+    <entity name="Ingredient" representedClassName="Ingredient" syncable="YES">
+        <attribute name="deletable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isSelected" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="IngredientCategory" inverseName="ingredients" inverseEntity="IngredientCategory" syncable="YES"/>
+        <relationship name="drinks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Drink" inverseName="ingredients" inverseEntity="Drink" syncable="YES"/>
+    </entity>
+    <entity name="IngredientCategory" representedClassName="IngredientCategory" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ingredients" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Ingredient" inverseName="category" inverseEntity="Ingredient" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Drink" positionX="-36" positionY="0" width="128" height="135"/>
+        <element name="Ingredient" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="IngredientCategory" positionX="-54" positionY="-9" width="128" height="75"/>
+    </elements>
+</model>

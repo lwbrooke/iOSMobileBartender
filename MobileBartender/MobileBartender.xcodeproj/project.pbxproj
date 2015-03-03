@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6880FAB41A36400500FE64EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6880FAB31A36400500FE64EF /* main.m */; };
+		6880FAB71A36400500FE64EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6880FAB61A36400500FE64EF /* AppDelegate.m */; };
+		6880FAC01A36400600FE64EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6880FABE1A36400600FE64EF /* Main.storyboard */; };
+		6880FAC21A36400600FE64EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6880FAC11A36400600FE64EF /* Images.xcassets */; };
+		6880FAC51A36400600FE64EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6880FAC31A36400600FE64EF /* LaunchScreen.xib */; };
+		6880FAD11A36400600FE64EF /* MobileBartenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6880FAD01A36400600FE64EF /* MobileBartenderTests.m */; };
+		6880FAE41A364AA400FE64EF /* IngredientTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6880FAE31A364AA400FE64EF /* IngredientTableViewCell.m */; };
+		6880FAED1A364EBC00FE64EF /* SelectIngredientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6880FAEC1A364EBC00FE64EF /* SelectIngredientsViewController.m */; };
+		6880FAF01A364F8800FE64EF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6880FAEE1A364F8800FE64EF /* Model.xcdatamodeld */; };
+		6880FAFC1A36516200FE64EF /* Drink.m in Sources */ = {isa = PBXBuildFile; fileRef = 6880FAFB1A36516200FE64EF /* Drink.m */; };
+		6880FB021A36516300FE64EF /* IngredientCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6880FB011A36516300FE64EF /* IngredientCategory.m */; };
+		6880FB051A36559400FE64EF /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6880FB041A36559400FE64EF /* Ingredient.m */; };
+		6880FB081A36660C00FE64EF /* AddDrinkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6880FB071A36660C00FE64EF /* AddDrinkTableViewController.m */; };
+		6880FB0B1A366B6500FE64EF /* ViewDrinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6880FB0A1A366B6500FE64EF /* ViewDrinksViewController.m */; };
+		6880FB0E1A366C4200FE64EF /* AddIngredientTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6880FB0D1A366C4200FE64EF /* AddIngredientTableViewController.m */; };
+		6880FB131A366D0600FE64EF /* IngredientsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6880FB121A366D0600FE64EF /* IngredientsDataSource.m */; };
+		68FF8F6B1A37A4060097EE48 /* DrinkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FF8F6A1A37A4060097EE48 /* DrinkDetailViewController.m */; };
+		68FF8F6E1A37B3A40097EE48 /* DrinksDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FF8F6D1A37B3A40097EE48 /* DrinksDataSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6880FACB1A36400600FE64EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6880FAA61A36400500FE64EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6880FAAD1A36400500FE64EF;
+			remoteInfo = MobileBartender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6880FAAE1A36400500FE64EF /* MobileBartender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileBartender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6880FAB21A36400500FE64EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6880FAB31A36400500FE64EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6880FAB51A36400500FE64EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6880FAB61A36400500FE64EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6880FABF1A36400600FE64EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6880FAC11A36400600FE64EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6880FAC41A36400600FE64EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6880FACA1A36400600FE64EF /* MobileBartenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileBartenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6880FACF1A36400600FE64EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6880FAD01A36400600FE64EF /* MobileBartenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileBartenderTests.m; sourceTree = "<group>"; };
+		6880FAE21A364AA400FE64EF /* IngredientTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientTableViewCell.h; sourceTree = "<group>"; };
+		6880FAE31A364AA400FE64EF /* IngredientTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientTableViewCell.m; sourceTree = "<group>"; };
+		6880FAEB1A364EBC00FE64EF /* SelectIngredientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectIngredientsViewController.h; sourceTree = "<group>"; };
+		6880FAEC1A364EBC00FE64EF /* SelectIngredientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectIngredientsViewController.m; sourceTree = "<group>"; };
+		6880FAEF1A364F8800FE64EF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		6880FAFA1A36516200FE64EF /* Drink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink.h; sourceTree = "<group>"; };
+		6880FAFB1A36516200FE64EF /* Drink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink.m; sourceTree = "<group>"; };
+		6880FB001A36516300FE64EF /* IngredientCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientCategory.h; sourceTree = "<group>"; };
+		6880FB011A36516300FE64EF /* IngredientCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientCategory.m; sourceTree = "<group>"; };
+		6880FB031A36559400FE64EF /* Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		6880FB041A36559400FE64EF /* Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
+		6880FB061A36660C00FE64EF /* AddDrinkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDrinkTableViewController.h; sourceTree = "<group>"; };
+		6880FB071A36660C00FE64EF /* AddDrinkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDrinkTableViewController.m; sourceTree = "<group>"; };
+		6880FB091A366B6500FE64EF /* ViewDrinksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDrinksViewController.h; sourceTree = "<group>"; };
+		6880FB0A1A366B6500FE64EF /* ViewDrinksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDrinksViewController.m; sourceTree = "<group>"; };
+		6880FB0C1A366C4200FE64EF /* AddIngredientTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddIngredientTableViewController.h; sourceTree = "<group>"; };
+		6880FB0D1A366C4200FE64EF /* AddIngredientTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddIngredientTableViewController.m; sourceTree = "<group>"; };
+		6880FB111A366D0600FE64EF /* IngredientsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsDataSource.h; sourceTree = "<group>"; };
+		6880FB121A366D0600FE64EF /* IngredientsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsDataSource.m; sourceTree = "<group>"; };
+		68FF8F691A37A4060097EE48 /* DrinkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkDetailViewController.h; sourceTree = "<group>"; };
+		68FF8F6A1A37A4060097EE48 /* DrinkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkDetailViewController.m; sourceTree = "<group>"; };
+		68FF8F6C1A37B3A40097EE48 /* DrinksDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinksDataSource.h; sourceTree = "<group>"; };
+		68FF8F6D1A37B3A40097EE48 /* DrinksDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinksDataSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6880FAAB1A36400500FE64EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6880FAC71A36400600FE64EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6880FAA51A36400500FE64EF = {
+			isa = PBXGroup;
+			children = (
+				6880FAB01A36400500FE64EF /* MobileBartender */,
+				6880FACD1A36400600FE64EF /* MobileBartenderTests */,
+				6880FAAF1A36400500FE64EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6880FAAF1A36400500FE64EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6880FAAE1A36400500FE64EF /* MobileBartender.app */,
+				6880FACA1A36400600FE64EF /* MobileBartenderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6880FAB01A36400500FE64EF /* MobileBartender */ = {
+			isa = PBXGroup;
+			children = (
+				6880FB061A36660C00FE64EF /* AddDrinkTableViewController.h */,
+				6880FB071A36660C00FE64EF /* AddDrinkTableViewController.m */,
+				6880FB0C1A366C4200FE64EF /* AddIngredientTableViewController.h */,
+				6880FB0D1A366C4200FE64EF /* AddIngredientTableViewController.m */,
+				6880FAB51A36400500FE64EF /* AppDelegate.h */,
+				6880FAB61A36400500FE64EF /* AppDelegate.m */,
+				6880FAFA1A36516200FE64EF /* Drink.h */,
+				6880FAFB1A36516200FE64EF /* Drink.m */,
+				68FF8F691A37A4060097EE48 /* DrinkDetailViewController.h */,
+				68FF8F6A1A37A4060097EE48 /* DrinkDetailViewController.m */,
+				68FF8F6C1A37B3A40097EE48 /* DrinksDataSource.h */,
+				68FF8F6D1A37B3A40097EE48 /* DrinksDataSource.m */,
+				6880FAC11A36400600FE64EF /* Images.xcassets */,
+				6880FB031A36559400FE64EF /* Ingredient.h */,
+				6880FB041A36559400FE64EF /* Ingredient.m */,
+				6880FB001A36516300FE64EF /* IngredientCategory.h */,
+				6880FB011A36516300FE64EF /* IngredientCategory.m */,
+				6880FB111A366D0600FE64EF /* IngredientsDataSource.h */,
+				6880FB121A366D0600FE64EF /* IngredientsDataSource.m */,
+				6880FAE21A364AA400FE64EF /* IngredientTableViewCell.h */,
+				6880FAE31A364AA400FE64EF /* IngredientTableViewCell.m */,
+				6880FAC31A36400600FE64EF /* LaunchScreen.xib */,
+				6880FABE1A36400600FE64EF /* Main.storyboard */,
+				6880FAEE1A364F8800FE64EF /* Model.xcdatamodeld */,
+				6880FAEB1A364EBC00FE64EF /* SelectIngredientsViewController.h */,
+				6880FAEC1A364EBC00FE64EF /* SelectIngredientsViewController.m */,
+				6880FAB11A36400500FE64EF /* Supporting Files */,
+				6880FB091A366B6500FE64EF /* ViewDrinksViewController.h */,
+				6880FB0A1A366B6500FE64EF /* ViewDrinksViewController.m */,
+			);
+			path = MobileBartender;
+			sourceTree = "<group>";
+		};
+		6880FAB11A36400500FE64EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6880FAB21A36400500FE64EF /* Info.plist */,
+				6880FAB31A36400500FE64EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6880FACD1A36400600FE64EF /* MobileBartenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				6880FAD01A36400600FE64EF /* MobileBartenderTests.m */,
+				6880FACE1A36400600FE64EF /* Supporting Files */,
+			);
+			path = MobileBartenderTests;
+			sourceTree = "<group>";
+		};
+		6880FACE1A36400600FE64EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6880FACF1A36400600FE64EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6880FAAD1A36400500FE64EF /* MobileBartender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6880FAD41A36400600FE64EF /* Build configuration list for PBXNativeTarget "MobileBartender" */;
+			buildPhases = (
+				6880FAAA1A36400500FE64EF /* Sources */,
+				6880FAAB1A36400500FE64EF /* Frameworks */,
+				6880FAAC1A36400500FE64EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileBartender;
+			productName = MobileBartender;
+			productReference = 6880FAAE1A36400500FE64EF /* MobileBartender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6880FAC91A36400600FE64EF /* MobileBartenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6880FAD71A36400600FE64EF /* Build configuration list for PBXNativeTarget "MobileBartenderTests" */;
+			buildPhases = (
+				6880FAC61A36400600FE64EF /* Sources */,
+				6880FAC71A36400600FE64EF /* Frameworks */,
+				6880FAC81A36400600FE64EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6880FACC1A36400600FE64EF /* PBXTargetDependency */,
+			);
+			name = MobileBartenderTests;
+			productName = MobileBartenderTests;
+			productReference = 6880FACA1A36400600FE64EF /* MobileBartenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6880FAA61A36400500FE64EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Brooke, Logan";
+				TargetAttributes = {
+					6880FAAD1A36400500FE64EF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6880FAC91A36400600FE64EF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6880FAAD1A36400500FE64EF;
+					};
+				};
+			};
+			buildConfigurationList = 6880FAA91A36400500FE64EF /* Build configuration list for PBXProject "MobileBartender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6880FAA51A36400500FE64EF;
+			productRefGroup = 6880FAAF1A36400500FE64EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6880FAAD1A36400500FE64EF /* MobileBartender */,
+				6880FAC91A36400600FE64EF /* MobileBartenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6880FAAC1A36400500FE64EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6880FAC01A36400600FE64EF /* Main.storyboard in Resources */,
+				6880FAC51A36400600FE64EF /* LaunchScreen.xib in Resources */,
+				6880FAC21A36400600FE64EF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6880FAC81A36400600FE64EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6880FAAA1A36400500FE64EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6880FAED1A364EBC00FE64EF /* SelectIngredientsViewController.m in Sources */,
+				6880FB081A36660C00FE64EF /* AddDrinkTableViewController.m in Sources */,
+				6880FAFC1A36516200FE64EF /* Drink.m in Sources */,
+				6880FAB71A36400500FE64EF /* AppDelegate.m in Sources */,
+				6880FAF01A364F8800FE64EF /* Model.xcdatamodeld in Sources */,
+				68FF8F6B1A37A4060097EE48 /* DrinkDetailViewController.m in Sources */,
+				6880FB131A366D0600FE64EF /* IngredientsDataSource.m in Sources */,
+				6880FB0B1A366B6500FE64EF /* ViewDrinksViewController.m in Sources */,
+				6880FAE41A364AA400FE64EF /* IngredientTableViewCell.m in Sources */,
+				68FF8F6E1A37B3A40097EE48 /* DrinksDataSource.m in Sources */,
+				6880FB021A36516300FE64EF /* IngredientCategory.m in Sources */,
+				6880FB0E1A366C4200FE64EF /* AddIngredientTableViewController.m in Sources */,
+				6880FB051A36559400FE64EF /* Ingredient.m in Sources */,
+				6880FAB41A36400500FE64EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6880FAC61A36400600FE64EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6880FAD11A36400600FE64EF /* MobileBartenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6880FACC1A36400600FE64EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6880FAAD1A36400500FE64EF /* MobileBartender */;
+			targetProxy = 6880FACB1A36400600FE64EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6880FABE1A36400600FE64EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6880FABF1A36400600FE64EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6880FAC31A36400600FE64EF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6880FAC41A36400600FE64EF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6880FAD21A36400600FE64EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6880FAD31A36400600FE64EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6880FAD51A36400600FE64EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MobileBartender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6880FAD61A36400600FE64EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MobileBartender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6880FAD81A36400600FE64EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobileBartenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileBartender.app/MobileBartender";
+			};
+			name = Debug;
+		};
+		6880FAD91A36400600FE64EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobileBartenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileBartender.app/MobileBartender";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6880FAA91A36400500FE64EF /* Build configuration list for PBXProject "MobileBartender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6880FAD21A36400600FE64EF /* Debug */,
+				6880FAD31A36400600FE64EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6880FAD41A36400600FE64EF /* Build configuration list for PBXNativeTarget "MobileBartender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6880FAD51A36400600FE64EF /* Debug */,
+				6880FAD61A36400600FE64EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6880FAD71A36400600FE64EF /* Build configuration list for PBXNativeTarget "MobileBartenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6880FAD81A36400600FE64EF /* Debug */,
+				6880FAD91A36400600FE64EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6880FAEE1A364F8800FE64EF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6880FAEF1A364F8800FE64EF /* Model.xcdatamodel */,
+			);
+			currentVersion = 6880FAEF1A364F8800FE64EF /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6880FAA61A36400500FE64EF /* Project object */;
+}
